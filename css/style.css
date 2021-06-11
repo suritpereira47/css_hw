@@ -1,0 +1,274 @@
+.header{
+       background-color: gainsboro;
+       border: solid black;
+       min-height: 50px
+}
+a{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.header2{
+  text-align: center;
+  background-color: white;
+  border: solid dodgerblue; 1px;
+}
+.wrapper{
+       overflow:hidden ;
+}
+.text{
+  text-align: center;
+  color: black;
+ }
+.contact{
+       float: left;
+       width: 70%;
+       min-height: 100px;
+      background-color:whitesmoke;    
+}
+.blog{
+       float: right;
+       width:30%;
+       min-height: 100px;
+       background-color:lightcyan  ;
+}
+.color{
+  color: red;
+}
+.background-color{
+  background-color: dodgerblue;
+  font-size: 15px;
+}
+.background-color1{
+  background-color: tomato;
+}
+.rgb1{
+  background-color: red;
+}
+.rgb2{
+  background-color: blue;
+}
+.rgb3{
+  background-color:yellow;
+}
+.rgb4{
+  background-color: pink;
+}
+.rgb5{
+  background-color:orange;
+}
+.rgb6{
+  background-color: green;
+}
+.footer{
+       min-height: 80px;
+       background-color: aliceblue;
+       border: solid black 1px;
+}
+.double{
+  border-style: double;
+}
+.groove{
+  border-style: groove;
+}
+.groove {
+  border-style: groove;
+}
+.ridge {
+  border-style: ridge;
+}
+.inset {
+  border-style: inset;
+}
+.outset {
+  border-style: outset;
+}
+.none {
+  border-style: none;
+}
+.hidden {
+  border-style: hidden;
+}
+.mix {
+  border-style: dotted dashed solid double;
+}
+.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+.two {
+  border-style: solid;
+  border-width: medium;
+}
+
+.three {
+  border-style: dotted;
+  border-width: 2px;
+}
+
+.four {
+  border-style: dotted;
+  border-width: thick;
+}
+
+.five {
+  border-style: double;
+  border-width: 15px;
+}
+
+.six {
+  border-style: double;
+  border-width: thick;
+}
+.one1 {
+  border-style: solid;
+  border-color: red;
+}
+
+.two2 {
+  border-style: solid;
+  border-color: green;
+} 
+
+.three3 {
+  border-style: dotted;
+  border-color: blue;
+} 
+.mix3{
+  border-top: solid black;
+  border-right: dotted red;
+  border-bottom: solid black;
+  border-left: dotted red;
+}
+.normal {
+  text-align: center;
+  border: 2px solid red;
+}
+.round1{text-align: center;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.round2 {text-align: center;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+.round3 {
+    text-align: center;
+  border: 2px solid red;
+  border-radius: 12px;
+}
+.margin{
+  text-align: center;
+  margin: 70px;
+  border: 2px solid blue;
+}
+.text2{
+  background-color: powderblue;
+  border: solid black 1px;
+}
+.text3{
+  background-color: orange;
+  width: 300px;
+  border: 14px solid tomato;
+  padding: 50px;
+  margin: 20px;
+}
+.line1{
+  border: 1px solid gray;
+  padding: 8px;
+  background-color: dodgerblue ;
+
+}
+.text4{
+  text-align: center;
+  text-transform: uppercase;
+  color:white;
+}
+.text5{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+h3{
+  font-family: garamond,serif ;
+}
+.link1{
+  color: blue;
+
+}
+.font{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+}
+.font2{
+  height: 20px;
+  width: 20px;
+  background-color: lavender;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 1px 4px 2px gainsboro;
+
+}
+.top{
+  text-align: center;
+  font-size: 13px;
+}
+.link3:link,visited{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+.link3:hover,active{
+  background-color: green;
+  color: white;
+}
+
+.a {
+  list-style-type: circle;
+}
+
+.b {
+  list-style-type: square;
+}
+table,td,th{
+    border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+#overflowTest{
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  width: 92.3%;
+  height: 200px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+.text6{
+  text-align: center;
+  color: black;
+}
+.float{
+  float: right;
+}
